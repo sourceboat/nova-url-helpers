@@ -1,0 +1,28 @@
+{
+    "name": "sourceboat/nova-url-helpers",
+    "description": "A package provifing some helpful methods to generate urls for laravel nova resources",
+    "type": "library",
+    "require": {
+        "php": "^7.2"
+    },
+    "require-dev": {
+      "consistence/coding-standard": "^3.5",
+      "phpmd/phpmd": "^2.6",
+      "squizlabs/php_codesniffer": "^3.3"
+    },
+    "autoload": {
+        "files": [
+            "src/Support/helpers.php"
+        ],
+        "psr-4": {
+            "Sourceboat\\Nova\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kevin Buchholz",
+            "email": "kevin@sourceboat.com"
+        }
+    ]
+}

@@ -1,2 +1,9 @@
-# nova-url-helpers
-Laravel nova url helpers
+# Nova url helpers
+
+A collection of helpers to generate urls for laravel nova resources.
+
+## Requirements
+
+## Installation
+
+## Usage
